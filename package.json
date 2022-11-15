@@ -1,0 +1,19 @@
+{
+  "name": "agora-app-builder",
+  "version": "1.0.0",
+ "homepage": "https://github.com/rajiv786/simmeet.git", 
+  "scripts": {
+    "start": "agora-app-builder-cli",
+    "start:info": "agora-app-builder-cli --info",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "agora-app-builder-cli": "2.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
